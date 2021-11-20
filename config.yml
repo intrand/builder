@@ -34,6 +34,13 @@ projects:
       - linux/amd64
       - linux/arm64/v8
 
+  - remote: https://github.com/intrand/builder.git
+    registry_organization: utils
+    registry: registry.intrand.io
+    architectures:
+      - linux/amd64
+      - linux/arm64/v8
+
   # - remote: https://github.com/intrand/cdn.git
   #   registry_organization: cdn
   #   registry_repository: dev

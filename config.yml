@@ -1,0 +1,281 @@
+---
+projects:
+  - remote: https://github.com/intrand/base-python.git
+    registry_organization: base
+    registry_repository: python
+    registry: registry.intrand.io
+    architectures:
+      - linux/amd64
+      - linux/arm64/v8
+
+  - remote: https://github.com/intrand/about-web.git
+    registry_organization: about
+    registry_repository: web
+    registry: registry.intrand.io
+    architectures:
+      - linux/amd64
+      - linux/arm64/v8
+
+  - remote: https://github.com/intrand/alertmanager-statuspage.git
+    registry_organization: alertmanager
+    registry_repository: statuspage
+    registry: registry.intrand.io
+    architectures:
+      - linux/amd64
+      - linux/arm64/v8
+
+  - remote: https://github.com/intrand/ansible.git
+    registry_organization: utils
+    registry_tag: 4.8.0
+    registry: registry.intrand.io
+    build_args:
+      - "version=4.8.0"
+    architectures:
+      - linux/amd64
+      - linux/arm64/v8
+
+  # - remote: https://github.com/intrand/cdn.git
+  #   registry_organization: cdn
+  #   registry_repository: dev
+  #   registry: registry.intrand.io
+
+  # - remote: https://github.com/intrand/discord-bot.git
+  #   registry_organization: discord
+  #   registry_repository: bot
+  #   registry: registry.intrand.io
+
+  - remote: https://github.com/intrand/duplicity-backup.git
+    registry_organization: duplicity
+    registry_repository: backup
+    registry: registry.intrand.io
+    architectures:
+      - linux/amd64
+
+  - remote: https://github.com/intrand/govirt.git
+    registry_organization: utils
+    registry: registry.intrand.io
+    architectures:
+      - linux/amd64
+      - linux/arm64/v8
+
+  - remote: https://github.com/intrand/idle-api.git
+    registry_organization: idle
+    registry_repository: api
+    registry: registry.intrand.io
+    architectures:
+      - linux/amd64
+      - linux/arm64/v8
+
+  - remote: https://github.com/intrand/idle-engine.git
+    registry_organization: idle
+    registry_repository: engine
+    registry: registry.intrand.io
+    architectures:
+      - linux/amd64
+      - linux/arm64/v8
+
+  - remote: https://github.com/intrand/idle-discord.git
+    registry_organization: idle
+    registry_repository: discord
+    registry: registry.intrand.io
+    architectures:
+      - linux/amd64
+      - linux/arm64/v8
+
+  - remote: https://github.com/intrand/idle-web.git
+    registry_organization: idle
+    registry_repository: web
+    registry: registry.intrand.io
+    architectures:
+      - linux/amd64
+      - linux/arm64/v8
+
+  # - remote: https://github.com/intrand/initvm-ansible.git
+  #   registry_organization: initvm
+  #   registry_repository: ansible
+  #   registry: registry.intrand.io
+  #   architectures:
+  #     - linux/amd64
+  #     - linux/arm64/v8
+
+  # - remote: https://github.com/intrand/initvm-api.git
+  #   registry_organization: initvm
+  #   registry_repository: api
+  #   registry: registry.intrand.io
+  #   architectures:
+  #     - linux/amd64
+  #     - linux/arm64/v8
+
+  # - remote: https://github.com/intrand/initvm-web.git
+  #   registry_organization: initvm
+  #   registry_repository: web
+  #   registry: registry.intrand.io
+  #   architectures:
+  #     - linux/amd64
+  #     - linux/arm64/v8
+
+  # - remote: https://github.com/intrand/ir-api.git
+  #   registry_organization: ir
+  #   registry_repository: api
+  #   registry: registry.intrand.io
+  #   architectures:
+  #     - linux/amd64
+  #     - linux/arm64/v8
+
+  # - remote: https://github.com/intrand/jot-api.git
+  #   registry_organization: jot
+  #   registry_repository: api
+  #   registry: registry.intrand.io
+  #   architectures:
+  #     - linux/amd64
+  #     - linux/arm64/v8
+
+  # - remote: https://github.com/intrand/jot-web.git
+  #   registry_organization: jot
+  #   registry_repository: web
+  #   registry: registry.intrand.io
+  #   architectures:
+  #     - linux/amd64
+  #     - linux/arm64/v8
+
+  - remote: https://github.com/Kong/kubernetes-ingress-controller.git
+    registry_organization: kong
+    registry_repository: ingress-controller
+    registry: registry.intrand.io
+    architectures:
+      - linux/amd64
+      - linux/arm64/v8
+
+  # - remote: https://github.com/intrand/logger-api.git
+  #   registry_organization: logger
+  #   registry_repository: api
+  #   registry: registry.intrand.io
+  #   architectures:
+  #     - linux/amd64
+  #     - linux/arm64/v8
+
+  # - remote: https://github.com/intrand/mirror-api.git
+  #   registry_organization: mirror
+  #   registry_repository: api
+  #   registry: registry.intrand.io
+  #   architectures:
+  #     - linux/amd64
+  #     - linux/arm64/v8
+
+  # - remote: https://github.com/intrand/music-discord.git
+  #   registry_organization: music
+  #   registry_repository: discord
+  #   registry: registry.intrand.io
+  #   architectures:
+  #     - linux/amd64
+  #     - linux/arm64/v8
+
+  - remote: https://github.com/intrand/picker-apex.git
+    registry_organization: picker
+    registry_repository: apex
+    registry: registry.intrand.io
+    architectures:
+      - linux/amd64
+      - linux/arm64/v8
+
+  - remote: https://github.com/intrand/picker-darkestdungeon.git
+    registry_organization: picker
+    registry_repository: darkestdungeon
+    registry: registry.intrand.io
+    architectures:
+      - linux/amd64
+      - linux/arm64/v8
+
+  - remote: https://github.com/intrand/picker-warframe.git
+    registry_organization: picker
+    registry_repository: warframe
+    registry: registry.intrand.io
+    architectures:
+      - linux/amd64
+      - linux/arm64/v8
+
+  - remote: https://github.com/intrand/random-api.git
+    registry_organization: random
+    registry_repository: api
+    registry: registry.intrand.io
+    architectures:
+      - linux/amd64
+      - linux/arm64/v8
+
+  - remote: https://github.com/intrand/relay-webhook.git
+    registry_organization: relay-webhook
+    registry_repository: api
+    registry: registry.intrand.io
+    architectures:
+      - linux/amd64
+      - linux/arm64/v8
+
+  - remote: https://github.com/intrand/rsync.git
+    registry_organization: rsync
+    registry_repository: server
+    registry: registry.intrand.io
+    architectures:
+      - linux/amd64
+      - linux/arm64/v8
+
+  # - remote: https://github.com/intrand/samba-simple.git
+  #   registry_organization: samba
+  #   registry_repository: simple
+  #   registry: registry.intrand.io
+  #   architectures:
+  #     - linux/amd64
+  #     - linux/arm64/v8
+
+  - remote: https://github.com/intrand/storytime-api.git
+    registry_organization: storytime
+    registry_repository: api
+    registry: registry.intrand.io
+    architectures:
+      - linux/amd64
+      - linux/arm64/v8
+
+  - remote: https://github.com/intrand/storytime-bot.git
+    registry_organization: storytime
+    registry_repository: bot
+    registry: registry.intrand.io
+    architectures:
+      - linux/amd64
+      - linux/arm64/v8
+
+  - remote: https://github.com/intrand/storytime-web.git
+    registry_organization: storytime
+    registry_repository: web
+    registry: registry.intrand.io
+    architectures:
+      - linux/amd64
+      - linux/arm64/v8
+
+  - remote: https://github.com/intrand/wg-meshify.git
+    registry_organization: utils
+    registry: registry.intrand.io
+    architectures:
+      - linux/amd64
+      - linux/arm64/v8
+
+  # - remote: https://github.com/intrand/vlc-headless.git
+  #   registry_organization: vlc
+  #   registry_repository: headless
+  #   registry: registry.intrand.io
+  #   architectures:
+  #     - linux/amd64
+  #     - linux/arm64/v8
+
+  # - remote: https://github.com/intrand/watchdog-api.git
+  #   registry_organization: watchdog
+  #   registry_repository: api
+  #   registry: registry.intrand.io
+  #   architectures:
+  #     - linux/amd64
+  #     - linux/arm64/v8
+
+  - remote: https://github.com/intrand/talent-calculator.git
+    registry_organization: wow
+    registry: registry.intrand.io
+    architectures:
+      - linux/amd64
+      - linux/arm64/v8
